@@ -12,7 +12,7 @@ submit.addEventListener("click", function () {
     fetch( 
         "https://api.openweathermap.org/data/2.5/weather?q=" +
           search.value +
-          "&appid= add your API key in here"
+          "&appid= add API key in here"
       )
         .then((res) => res.json())
         .then((data) => {
